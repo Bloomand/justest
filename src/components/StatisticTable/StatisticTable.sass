@@ -1,0 +1,48 @@
+table 
+    margin-left: auto
+    margin-right: auto
+    background: #FFFFFF
+    font-family: 'Inter', sans-serif
+    width: 95%
+    border-collapse: collapse
+
+
+thead 
+    th 
+        text-align: center
+        align-items: center
+        height: 50px
+        border-bottom: 1px solid rgb(164, 162, 162)
+    button
+        color: rgba(0, 0, 0, 0.3)
+        background: #FFFFFF
+        border: 0
+        align-items: center
+        border-radius: none
+        font-family: inherit
+        font-weight: 600
+        font-size: inherit
+        padding: 0.5em
+        margin-bottom: 1px
+    button.ascending::after
+        content: '▼'
+        display: inline-block
+        margin-left: 1em
+    button.descending::after 
+        content: '▲'
+        display: inline-block
+        margin-left: 1em
+tbody 
+    td
+        height: 30px
+        margin-left: auto
+        margin-right: auto
+        border-bottom: 1px solid #ccc
+    tr:hover 
+        background-color: #eee
+
+nav
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-top: 15px
